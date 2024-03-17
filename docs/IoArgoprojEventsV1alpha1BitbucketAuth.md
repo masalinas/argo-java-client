@@ -1,0 +1,11 @@
+
+# IoArgoprojEventsV1alpha1BitbucketAuth
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**basic** | [**IoArgoprojEventsV1alpha1BitbucketBasicAuth**](IoArgoprojEventsV1alpha1BitbucketBasicAuth.md) |  |  [optional]
+**oauthToken** | [**IoK8sApiCoreV1SecretKeySelector**](IoK8sApiCoreV1SecretKeySelector.md) |  |  [optional]
+
+
+

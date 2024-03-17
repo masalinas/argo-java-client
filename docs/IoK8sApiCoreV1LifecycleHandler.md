@@ -1,0 +1,12 @@
+
+# IoK8sApiCoreV1LifecycleHandler
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**exec** | [**IoK8sApiCoreV1ExecAction**](IoK8sApiCoreV1ExecAction.md) | Exec specifies the action to take. |  [optional]
+**httpGet** | [**IoK8sApiCoreV1HTTPGetAction**](IoK8sApiCoreV1HTTPGetAction.md) | HTTPGet specifies the http request to perform. |  [optional]
+**tcpSocket** | [**IoK8sApiCoreV1TCPSocketAction**](IoK8sApiCoreV1TCPSocketAction.md) | Deprecated. TCPSocket is NOT supported as a LifecycleHandler and kept for the backward compatibility. There are no validation of this field and lifecycle hooks will fail in runtime when tcp handler is specified. |  [optional]
+
+
+
